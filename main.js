@@ -34,3 +34,8 @@ function showTime() {
             .innerHTML = currentTime; 
 } 
 showTime();
+var business_size = prompt("Are you a Business?")
+                while ("large") {
+                    alert("Then you are on the right page!")
+                    break;
+                }
