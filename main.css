@@ -1,0 +1,131 @@
+/* *{
+	border: 1px solid red;
+} */
+
+.container {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+    
+}
+
+.background_body {
+    background-color: seagreen;
+    
+}
+.main_body {
+    display: flex;  
+    flex-direction: row;
+}
+
+.main_body_right_index {
+    flex: 3;
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 700px;
+    height: 550px;
+    border: 1px solid white;
+    padding: 15px;
+    margin: 20px;
+    background-image: url("https://wildadirondacks.org/images/Trees-of-the-Adirondacks-Red-Maple-Acer-rubrum-Leaf-Heron-Marsh-Trail-5-October-2018-71.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    padding-top: 11%;
+    
+    
+}
+.main_body_right_enterprise {
+    flex: 3;
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 700px;
+    height: 550px;
+    border: 1px solid white;
+    padding: 15px;
+    margin: 20px;
+    background-image: url("https://images.fineartamerica.com/images-medium-large/red-yellow-and-orange-fallen-maple-leaves-chantal-photopix.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    padding-top: 11%;
+}
+.main_body_left_index {
+    flex: 3;
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 700px;
+    height: 550px;
+    border: 1px solid white;
+    padding: 15px;
+    margin: 20px;
+    background-image: url("https://i2.wp.com/alpinetreenj.com/wp-content/uploads/Alpine-fall-color.jpg?fit=1024%2C512&ssl=1");
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    padding-top: 11%;
+    align-items: center;
+}
+.main_body_left_enterprise {
+    flex: 3;
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 700px;
+    height: 550px;
+    border: 1px solid white;
+    padding: 15px;
+    margin: 20px;
+    background-image: url("https://s3.envato.com/files/235177908/preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    padding-top: 11%;
+}
+.main_body_left_individual {
+    flex: 3;
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 700px;
+    height: 550px;
+    border: 1px solid white;
+    padding: 15px;
+    margin: 20px;
+    background-image: url("https://images.fineartamerica.com/images-medium-large-5/green-maple-leaves-elena-elisseeva.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    padding-top: 11%;
+}
+.foot_body {
+    display: flex;  
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 20px;
+    justify-content: left;
+    text-align: left;
+    margin-left: 40%;
+
+}
+div a {
+    padding: 1.5%;
+}
+body div p {
+    text-align: left;
+}
+ul li {
+    text-align: left;
+    margin-right: 50%;
+}
+table, tr, th, td{
+    border: 1px solid white;
+}
